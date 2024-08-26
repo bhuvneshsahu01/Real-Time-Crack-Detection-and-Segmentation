@@ -2,7 +2,7 @@
 
 This project focuses on real-time crack detection and segmentation using state-of-the-art deep learning models. It was developed as part of a summer internship, with all data collected and annotated specifically for this task.
 
-** Try **
+**Try**
 https://cracksegmentation.streamlit.app/
 
 ## Table of Contents
@@ -38,11 +38,11 @@ The dataset used for this project was collected manually and includes various ty
 2. **Detectron2**: by Meta.
 3. **Segment Anything Model (SAM)**: By Meta.
 
-## Training and Fine-Tuning
+##Training and Fine-Tuning**
 
 Each model was fine-tuned on the custom dataset to optimize performance for crack detection and segmentation. Details on how the models were trained:
 
-** All models are trained with 200 epochs **
+**All models are trained with 200 epochs**
 
 ## Usage
 
