@@ -25,6 +25,11 @@ This project aims to detect and segment cracks in various structures using deep 
 
 ## Dataset
 
+![Screenshot 2024-06-13 205707](https://github.com/user-attachments/assets/ce0e8964-467f-4c08-861f-3807cfb64d90)
+
+![Screenshot 2024-06-13 205658](https://github.com/user-attachments/assets/45d6236d-6772-4969-8264-58c9a827fe4a)
+
+
 The dataset used for this project was collected manually and includes various types of cracks, providing a diverse range of examples. Ground truth annotations were created using the LabelMe tool, which helped in generating accurate labels for training and evaluation.
 
 - **Number of Images**: 430.
