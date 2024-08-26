@@ -2,6 +2,9 @@
 
 This project focuses on real-time crack detection and segmentation using state-of-the-art deep learning models. It was developed as part of a summer internship, with all data collected and annotated specifically for this task.
 
+** Try **
+https://cracksegmentation.streamlit.app/
+
 ## Table of Contents
 
 - [Introduction](#introduction)
