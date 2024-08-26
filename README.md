@@ -24,40 +24,22 @@ This project aims to detect and segment cracks in various structures using deep 
 
 The dataset used for this project was collected manually and includes various types of cracks, providing a diverse range of examples. Ground truth annotations were created using the LabelMe tool, which helped in generating accurate labels for training and evaluation.
 
-- **Number of Images**: [Specify number]
-- **Types of Cracks**: [Briefly describe types]
+- **Number of Images**: 430.
+- **Image dimensions**: 480*480.
+- **Types of Cracks**:  various types of (deep, wide, thin, hairline) on various surfaces (walls, roofs, concrete, plaster)
 - **Annotation Tool**: LabelMe
 
 ## Models Used
 
-1. **YOLOv8**: Used for object detection to identify crack regions.
-2. **Detectron2**: Utilized for instance segmentation to segment cracks in the images.
-3. **Segment Anything Model (SAM)**: Used to provide additional segmentation capabilities, enhancing the detection accuracy.
+1. **YOLOv8**: by Ultralytics.
+2. **Detectron2**: by Meta.
+3. **Segment Anything Model (SAM)**: By Meta.
 
 ## Training and Fine-Tuning
 
 Each model was fine-tuned on the custom dataset to optimize performance for crack detection and segmentation. Details on how the models were trained:
 
-- **YOLOv8**: [Training details, epochs, learning rate, etc.]
-- **Detectron2**: [Training details, epochs, learning rate, etc.]
-- **SAM**: [Training details, epochs, learning rate, etc.]
-
-## Installation
-
-To set up the project locally, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/crack-detection-segmentation.git
-    cd crack-detection-segmentation
-    ```
-
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Download the pre-trained weights and place them in the `models/` directory. [Provide download link if available]
+** All models are trained with 200 epochs **
 
 ## Usage
 
@@ -71,13 +53,6 @@ To run the real-time crack detection and segmentation:
 
 - `--source`: Path to the input data (image or video) for detection.
 
-## Results
-
-The models were evaluated on a separate validation set, achieving the following metrics:
-
-- **YOLOv8**: [Specify mAP, Precision, Recall, etc.]
-- **Detectron2**: [Specify mAP, Precision, Recall, etc.]
-- **SAM**: [Specify mAP, Precision, Recall, etc.]
 
 Sample results are provided in the `results/` directory.
 
